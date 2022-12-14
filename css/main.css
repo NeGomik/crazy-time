@@ -1041,11 +1041,15 @@ h4 {
 }
 
 .game__table table {
+  width: 100%;
   padding-top: 26px;
   padding-left: 56px;
   padding-right: 92px;
   padding-bottom: 26px;
   border: 1px solid #ffe26e;
+}
+.game__table {
+  width: 505px;
 }
 .game__table th {
   margin-right: 9px;
@@ -1058,13 +1062,13 @@ h4 {
   font-size: 18px;
   line-height: 24px;
   padding-top: 4px;
+  text-align: left;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .game__table th {
     font-size: 12px;
     margin-right: 5px;
     padding-right: 20px;
-    text-align: left;
   }
 }
 .game__table td {
@@ -1082,7 +1086,6 @@ h4 {
 
 .game__videoreview {
   width: 634px;
-  height: 448px;
   background: rgba(243, 255, 209, 0.97);
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1136,6 +1139,7 @@ h4 {
 @media (min-width: 320px) and (max-width: 767px) {
   .game__videoreview-hero {
     width: 100%;
+    object-fit: cover;
   }
 }
 
