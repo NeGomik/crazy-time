@@ -1,0 +1,173 @@
+.mobileversion__crazytime-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 38px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .mobileversion__crazytime-title {
+    font-size: 30px;
+  }
+}
+.mobileversion__crazytime-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 25px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .mobileversion__crazytime-text {
+    font-size: 12px;
+  }
+}
+.mobileversion__crazytime-img {
+  width: 100%;
+  height: 325px;
+  margin-top: 20px;
+  position: relative;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .mobileversion__crazytime-img {
+    margin-left: 15%;
+  }
+}
+.mobileversion__crazytime-img-btn {
+  left: 0;
+  top: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  width: 203px;
+  height: 62px;
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 80px;
+  background: -o-linear-gradient(342.22deg, #5DE747 12.09%, #138900 85.51%);
+  background: linear-gradient(107.78deg, #5DE747 12.09%, #138900 85.51%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .mobileversion__crazytime-img-btn {
+    left: 0;
+    right: 28%;
+    top: -200px;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+.mobileversion-img {
+  width: 100%;
+}
+
+.mobileversion__towin-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 35px;
+  color: #FFFFFF;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .mobileversion__towin-title {
+    margin-top: -200px;
+    font-size: 30px;
+  }
+}
+.mobileversion__towin-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 25px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .mobileversion__towin-text {
+    font-size: 12px;
+  }
+}
+.mobileversion__towin-list {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-left: 53px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .mobileversion__towin-list {
+    font-size: 12px;
+  }
+}
+.mobileversion__towin-btn {
+  width: 197px;
+  height: 59px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#DEFFC4), to(#97FF45));
+  background: -o-linear-gradient(top, #DEFFC4 0%, #97FF45 100%);
+  background: linear-gradient(180deg, #DEFFC4 0%, #97FF45 100%);
+  border: 2px solid #004216;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 25px rgba(114, 255, 48, 0.49), inset 0px -4px 10px #00B9F3, inset 0px 4px 10px #0EB500;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 25px rgba(114, 255, 48, 0.49), inset 0px -4px 10px #00B9F3, inset 0px 4px 10px #0EB500;
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .mobileversion-img {
+    display: none;
+  }
+}
+
+.mobileversion__crazytime-img-btn:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.mobileversion__towin-btn:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .faq {
+    display: none;
+  }
+}
+.faq-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 35px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .faq-title {
+    font-size: 30px;
+  }
+}
+.faq__questanswer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #FFE26E;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+.faq__quest {
+  background: #EEFACB;
+  border-radius: 8px;
+}
+.faq__quest-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin: 59px 50px;
+}
+.faq__answer-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin: 59px 56px;
+}
