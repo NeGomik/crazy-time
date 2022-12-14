@@ -1,0 +1,37 @@
+.footer{
+  &__text{
+    display: flex;
+    width: 1440px;
+    height: 151px;
+    margin-left: -134px;
+    background: linear-gradient(180deg, #498103 0%, #9FE646 100%);
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    display: none;
+  }
+
+  &-text{
+    width: 969px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFBEB;
+    margin-left: 12px;
+    
+
+  }
+  &__2022{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFBEB;
+    margin-top: 35px;
+    margin-bottom: 33px;
+  }
+}

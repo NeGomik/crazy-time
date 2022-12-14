@@ -1,0 +1,131 @@
+.hero {
+    width: 100%;
+
+    &__container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 68px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        @media (min-width: (320px)) and (max-width: (767px)) {
+            font-size: 22px;
+        }
+    }
+
+    &__play {
+        position: relative;
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        @media (min-width: (320px)) and (max-width: (767px)){
+            height: 100%;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            background: rgba(35, 17, 17, 0.4);
+            backdrop-filter: blur(10px);
+            @media (min-width: (320px)) and (max-width: (767px)){
+                display: none;
+            }
+        }
+
+        &-bg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+            object-position: center;
+            @media (min-width: (320px)) and (max-width: (767px)){
+                display: none;
+            }
+            
+        }
+
+        & .play-btns {
+            width: 351px;
+            height: 75px;
+            z-index: 1;
+            margin-bottom: 24px;
+            border: 2px solid #ffffff;
+            transition: 0.5s;
+        }
+
+        &-free {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.3);
+        }
+        &-money {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            color: #ffffff;
+            background: #678610;
+            border: 2px solid rgba(243, 255, 209, 0.97);
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.25);
+        }
+    }
+
+    &__realmoney {
+        width: 351px;
+        height: 77px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 58px;
+        color: #004216;
+        background: linear-gradient(180deg, #deffc4 0%, #97ff45 100%);
+        border: 2px solid #004216;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 25px #54d219, inset 0px -4px 10px #00b9f3,
+            inset 0px 4px 10px #0eb500;
+        transition: 0.5s;
+        @media (min-width: (320px)) and (max-width: (767px)){
+            display: none;
+        }
+    }
+}
+
+
+
+
+.play-btns:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+.hero__realmoney:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

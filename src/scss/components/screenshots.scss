@@ -1,0 +1,95 @@
+.screenshots__text{
+  &-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 28px;
+    @media (min-width: (320px)) and (max-width: (767px)){
+      font-size: 30px;
+    }
+  }
+  &-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    @media (min-width: (320px)) and (max-width: (767px)){
+      font-size: 12px;
+    }
+
+
+  }
+  .text1{
+    margin-top: 13px;
+    margin-bottom: 25px;
+  }
+}
+
+.screenshots__swiper{
+  height: 100%;
+  margin-top: 39px;
+  overflow: hidden;
+
+  &-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    @media (min-width: (320px)) and (max-width: (767px)){
+      font-size: 30px;
+    }
+  }
+
+  & .swiper {
+    padding: 25px 30px;
+    display: flex;
+    margin-top: 20px;
+    background: #A3B66B;
+
+    @media (min-width: (320px)) and (max-width: (767px)){
+      padding: 20px;
+    }
+
+    &-slide {
+      height: 100%;
+      
+      &__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+
+
+.swiper-wrapper{
+  display: inline-flex;
+}
+
+.swiper-button-next{
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+}
+
+
+.swiper-button-prev{
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+}
+
+
+
+
